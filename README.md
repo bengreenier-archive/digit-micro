@@ -4,7 +4,7 @@ A microservice (:microscope: :cloud:) that digs
 
 ## What?
 
-A simple service (live at [https://digit-micro-iqtjfucpbw.now.sh](https://digit-micro-iqtjfucpbw.now.sh)) that looks up hostnames using ldns.
+A simple service (live at [ https://digit-micro-qktvbldqvc.now.sh]( https://digit-micro-qktvbldqvc.now.sh)) that looks up hostnames using ldns.
 
 ## How?
 
