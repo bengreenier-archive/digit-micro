@@ -1,6 +1,6 @@
 {
   "name": "digit-micro",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "dig as a microservice",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "Ben Greenier",
   "license": "MIT",
   "dependencies": {
-    "micro": "^7.3.3"
+    "micro": "^7.3.3",
+    "micro-cors": "0.0.4"
   }
 }

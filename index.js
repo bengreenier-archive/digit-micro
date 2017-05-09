@@ -1,7 +1,9 @@
 const dns = require('dns')
 const {json, send} = require('micro')
+const microCors = require('micro-cors')
 
-module.exports = async (req, res) => {
+const cors = microCors({ allowMethods: ['POST'] })
+const handler = async (req, res) => {
     const data = await json(req)
 
     if (!data || !data.host || !data.rrtype) {
@@ -16,3 +18,5 @@ module.exports = async (req, res) => {
         send(res, 200, {records: recs})
     })
 }
+
+module.exports = cors(handler)
